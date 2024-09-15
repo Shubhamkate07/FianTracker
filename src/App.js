@@ -67,8 +67,9 @@ function App() {
         {/* Private Routes */}
         <Route path="/home" element={<Home />} />
         <Route path="/db" element={<DashBoard />} />
-       
+        <Route path="/sg" element={<SavingsGoals />} />
         <Route path="/tp" element={<TransactionsPage />} />
+        
       </Routes>
     </Router>
   );

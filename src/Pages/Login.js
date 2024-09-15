@@ -42,7 +42,7 @@ function Login() {
     async function addLoginData(loginData) {
         try {
             const response = await fetch(
-                'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyC42844vo45bTWRHyiPEk5m-_7LsoPWjBc',
+                'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCGHhAc3OSoKGkg41y9CeZ49YoVakx-ODc',
                 {
                     method: 'POST',
                     body: JSON.stringify({
